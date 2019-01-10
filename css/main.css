@@ -250,7 +250,8 @@ main {
     text-align: center; }
     main .lg-heading {
       line-height: 1;
-      margin-bottom: 1rem; }
+      margin-bottom: 1rem;
+      font-size: 50px;}
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -283,7 +284,7 @@ main {
       margin-top: 10vh; }
     main .lg-heading {
       margin-top: 1rem;
-      font-size: 5rem; }
+      font-size: 50px;; }
   .projects {
     grid-template-columns: 1fr; } }
 
