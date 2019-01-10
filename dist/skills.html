@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/main.css">
+  <title>Contact Me</title>
+
+  <script src="js/jquery.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">
+            About Me
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="work.html" class="nav-link">
+            My Work
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="skills.html" class="nav-link">
+            My Skills
+          </a>
+        </li>
+        <li class="nav-item current">
+          <a href="contact.html" class="nav-link">
+            How To Reach Me
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contact">
+    <h1 class="lg-heading">
+      My
+      <span class="text-secondary">Skills</span>
+    </h1>
+    <h2 class="sm-heading">
+      These are my skills...
+    </h2>
+        <div class="container">
+    <div class="bar-1">
+    <div class="title">Java</div>
+    <div class="bar" data-width="70%">
+      <div class="bar-inner">
+        
+      </div>
+      <div class="bar-percent">70%</div>
+    </div>
+    </div>
+    <div class="bar-1">
+    <div class="title" style="color: #0ece52;">C#</div>
+    <div class="bar" data-width="70%">
+      <div class="bar-inner" style="background: #0ece52;">
+        
+      </div>
+      <div class="bar-percent">70%</div>
+    </div>
+    
+    </div>
+    <div class="bar-1">
+    <div class="title" style="color: #d823e4;">AngularJS</div>
+    <div class="bar" data-width="85%">
+      <div class="bar-inner" style="background: #d823e4;">
+        
+      </div>
+      <div class="bar-percent">85%</div>
+    </div>
+    </div>
+    <div class="bar-1">
+    <div class="title" style="color: #5a68a5">NodeJS</div>
+    <div class="bar" data-width="85%">
+      <div class="bar-inner" style="background: #5a68a5;">
+        
+      </div>
+      <div class="bar-percent">85%</div>
+    </div>
+    </div>
+    <div class="bar-1">
+    <div class="title" style="color: #a4f736">Android</div>
+    <div class="bar" data-width="65%">
+      <div class="bar-inner" style="background: #a4f736;">
+        
+      </div>
+      <div class="bar-percent">65%</div>
+    </div>
+    </div>
+
+    <div class="bar-1">
+    <div class="title" style="color: #007560">SQL</div>
+    <div class="bar" data-width="70%">
+      <div class="bar-inner" style="background: #007560;">
+        
+      </div>
+      <div class="bar-percent">70%</div>
+    </div>
+    </div>
+
+    <div class="bar-1">
+    <div class="title" style="color: #6e1f96">NoSQL</div>
+    <div class="bar" data-width="70%">
+      <div class="bar-inner" style="background: #6e1f96;">
+        
+      </div>
+      <div class="bar-percent">70%</div>
+    </div>
+    </div>
+  </div>
+
+  <h2>Others</h2>
+  <p>Xamarin, Docker, MySQL, MSSQL, MongoDB, HTML, CSS, JS, React, GIT</p>
+  </main>
+
+  <footer id="main-footer">
+    Copyright &copy; 2019
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+<script type="text/javascript">
+  $(".bar").each(function(){
+  $(this).find(".bar-inner").animate({
+    width: $(this).attr("data-width")
+  },2000)
+});
+</script>
+</html>
